@@ -34,4 +34,4 @@ pip install xgboost
 [Specify the project's license.]
 
 ## Credits
-[List any contributors or sources of inspiration for the project.]
+Credit to DeepFace library, whis this code are build on 
