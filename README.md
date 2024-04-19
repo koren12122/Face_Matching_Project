@@ -1,4 +1,4 @@
-# Face_Matching_Project
+# Face Matching Project
 
 ## Overview
 [Provide a brief overview of the project. What is its purpose? What problem does it solve?]
@@ -8,13 +8,13 @@ For example, consider a company that hosts an event and captures numerous photog
 
 To achieve this, the project leverages the following key components:
 
-### DeepFace Library:
+#### DeepFace Library:
 The system utilizes the DeepFace library, a state-of-the-art deep learning-based face recognition framework, to perform the core face detection and recognition tasks.
 
-### Ensemble Learning of Face Recognition Models: 
+#### Ensemble Learning of Face Recognition Models: 
 The project employs an ensemble learning approach, combining multiple face recognition models to improve the overall accuracy and robustness of the face identification process.
 
-### Machine Learning Techniques:
+#### Machine Learning Techniques:
 The system incorporates advanced machine learning techniques, such as XGBoost
 
 
