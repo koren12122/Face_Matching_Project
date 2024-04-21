@@ -35,10 +35,10 @@ To set up the project environment, follow these steps:
     ```
 
 3. **Install Dependencies**:
-        ```sh
-        pip install scipy pandas scikit-learn
-        pip install xgboost
-        ```
+       ```sh
+   pip install scipy pandas scikit-learn
+   pip install xgboost
+    ```
 
 ## Usage
 [Explain how to use the project. Provide examples if necessary.]
