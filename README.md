@@ -8,7 +8,7 @@ For example, consider a company that hosts an event and captures numerous photog
 To achieve this, the project leverages the following key components:
 
 #### DeepFace Library:
-The system utilizes the [DeepFace]([https://github.com/other-user/other-repo/blob/main/example.md](https://github.com/serengil/deepface))
+The system utilizes the [DeepFace](https://github.com/serengil/deepface)
  library, a state-of-the-art deep learning-based face recognition framework, to perform the core face detection and recognition tasks.
 
 #### Ensemble Learning of Face Recognition Models: 
