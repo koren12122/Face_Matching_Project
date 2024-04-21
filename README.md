@@ -43,11 +43,5 @@ To set up the project environment, follow these steps:
 ## Usage
 [Explain how to use the project. Provide examples if necessary.]
 
-## Features
-[List the key features of the project.]
-
-## License
-[Specify the project's license.]
-
 ## Credits
 Acknowledgment is due to the [DeepFace](https://github.com/serengil/deepface) library, upon which this code is built, as well as [YOLO-V8-face](https://github.com/akanametov/yolov8-face).
