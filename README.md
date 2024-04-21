@@ -23,26 +23,22 @@ For advanced details, read [this file](Face_Matching_Project.pdf)
 ## Installation
 To set up the project environment, follow these steps:
 
- **Clone the Repository**: 
+ 1. **Install deepface**: 
     ```sh
-    git clone https://github.com/username/repository.git
+    pip install deepface
     ```
 
-2. **Navigate to the Project Directory**:
+2. **Clone yolo-v8 repo**:
     ```sh
-    cd repository
+    git clone https://github.com/akanametov/yolov8-face
+    pip install ultralytics
     ```
 
 3. **Install Dependencies**:
-    - Ensure you have Node.js installed.
-    - Install project dependencies with npm:
         ```sh
-        npm install
+        pip install scipy pandas scikit-learn
+        pip install xgboost
         ```
-
-pip install deepface
-pip install scipy pandas scikit-learn
-pip install xgboost
 
 ## Usage
 [Explain how to use the project. Provide examples if necessary.]
