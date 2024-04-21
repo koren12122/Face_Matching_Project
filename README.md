@@ -50,4 +50,4 @@ To set up the project environment, follow these steps:
 [Specify the project's license.]
 
 ## Credits
-Credit to DeepFace library, which this code are build on 
+Acknowledgment is due to the [DeepFace](https://github.com/serengil/deepface) library, upon which this code is built, as well as [YOLO-V8-face](https://github.com/akanametov/yolov8-face).
