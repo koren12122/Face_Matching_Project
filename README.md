@@ -18,10 +18,27 @@ The project employs an ensemble learning approach, combining multiple face recog
 The system incorporates advanced machine learning techniques, such as XGBoost
 
 ## Details
-For advanced details, read [This file](Face_Matching_Project.pdf)
+For advanced details, read [this file](Face_Matching_Project.pdf)
 
 ## Installation
 To set up the project environment, follow these steps:
+
+ **Clone the Repository**: 
+    ```sh
+    git clone https://github.com/username/repository.git
+    ```
+
+2. **Navigate to the Project Directory**:
+    ```sh
+    cd repository
+    ```
+
+3. **Install Dependencies**:
+    - Ensure you have Node.js installed.
+    - Install project dependencies with npm:
+        ```sh
+        npm install
+        ```
 
 pip install deepface
 pip install scipy pandas scikit-learn
