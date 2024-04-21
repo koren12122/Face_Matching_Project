@@ -3,7 +3,7 @@
 ## Overview
 This repository contains a data science project focused on face recognition. The primary objective is to develop a system that can identify all the images in a database where a specific person appears, given a reference face image of that individual.
 
-For example, consider a company that hosts an event and captures numerous photographs during the occasion. The goal is to enable the company to efficiently identify and provide the relevant images to each employee, under the assumption that the company has access to the employees' phone numbers and face images.
+For example, consider a company that hosts an event and captures photographs during the occasion. The goal is to enable the company to efficiently identify and provide the relevant images to each employee, under the assumption that the company has access to the employees' phone numbers and face images.
 
 To achieve this, the project leverages the following key components:
 
