@@ -16,6 +16,8 @@ The project employs an ensemble learning approach, combining multiple face recog
 #### Machine Learning Techniques:
 The system incorporates advanced machine learning techniques, such as XGBoost
 
+### Details
+For advanced details, read [Link to File](Face_Matching_Project.pdf)
 
 ## Installation
 To set up the project environment, follow these steps:
