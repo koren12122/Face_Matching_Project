@@ -51,5 +51,7 @@ Here are the steps to follow if you want to train your own XGBoost model:
 3. Use the "create_dataset.py" script to generate the dataset.
 4. Finally, run the "main.py" script to train your XGboost model.
 
+To ensure that your dataset is accurate, it is recommended that you divide the "create_dataset.py" script into two parts: person clustering and CSV file creation. After the first part is completed, you may need to manually correct any minor errors in the clustered dataset.
+
 ## Credits
 Acknowledgment is due to the [DeepFace](https://github.com/serengil/deepface) library, upon which this code is built, as well as [YOLO-V8-face](https://github.com/akanametov/yolov8-face).
