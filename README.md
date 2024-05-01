@@ -41,7 +41,15 @@ To set up the project environment, follow these steps:
     ```
 
 ## Usage
-[Explain how to use the project. Provide examples if necessary.]
+
+Here are the steps to follow if you want to train your own XGBoost model:
+
+1. Ensure that you have a folder containing images from the event in the main directory.
+2. Open the terminal and navigate to the "yolov8-face" directory. Then, run the following command:
+   ```bash
+   yolo task=detect mode=predict model=yolov8m-face.pt conf=0.85 imgsz=1280 line_width=1 max_det=1000 source=event_images save_crop=True
+3. Use the "create_dataset.py" script to generate the dataset.
+4. Finally, run the "main.py" script to train your XGboost model.
 
 ## Credits
 Acknowledgment is due to the [DeepFace](https://github.com/serengil/deepface) library, upon which this code is built, as well as [YOLO-V8-face](https://github.com/akanametov/yolov8-face).
