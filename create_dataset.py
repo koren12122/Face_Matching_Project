@@ -222,28 +222,7 @@ def modify_and_return_df(df_name):
     return df
 
 
-def create_mapping():
-    """
-    insted of 'yolo task=detect mode=predict model=yolov8m-face.pt conf=0.85 imgsz=1280 line_width=1 max_det=1000 source=../klil_event save_crop=True'
-    using code and create mapping dictionary between faces crops and original images
-    """
-    directory = '/klil_event/'
 
-    images_list = []
-    for root, dirs, files in os.walk(os.getcwd() + directory):
-        for file in files:
-            if ".jpg" in file:
-                images_list.append(file)
-
-    # Load a model
-    model = YOLO('yolov8m-face.pt')  # pretrained YOLOv8n model
-    for image in images_list:
-        results = model.predict(image, imgsz=1280, conf=0.85, save_crop=True, line_width=1)
-        print(results)
-        exit()
-
-create_mapping()
-exit()
 images_path = "enter/your/path/to/images/"
 face_clustering(images_path)
 face_directory = images_path + 'face_dir/clusters/'  # The face clusters (change if needed)
