@@ -1,5 +1,8 @@
 # Face Matching Project
 
+## Details
+For advanced details, read [this file](Face_Matching_Project.pdf)
+
 ## Overview
 This repository contains a data science project focused on face recognition. The primary objective is to develop a system that can identify all the images in a database where a specific person appears, given a reference face image of that individual.
 
@@ -16,9 +19,6 @@ The project employs an ensemble learning approach, combining multiple face recog
 
 #### Machine Learning Techniques:
 The system incorporates advanced machine learning techniques, such as XGBoost
-
-## Details
-For advanced details, read [this file](Face_Matching_Project.pdf)
 
 ## Installation
 To set up the project environment, follow these steps:
